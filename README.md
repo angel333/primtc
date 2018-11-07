@@ -31,7 +31,7 @@ An alternative to Arduino IDE is to use the included Makefile (that uses
    $ make
    ```
 
-   > Note: Make sure `arduino-cli` is in your `$PATH`.
+   > Note: Make sure `$HOME/go/bin` is in your `$PATH`.
 
 2. Modify the `FQBN` and `PORT` variables in `config.mk` to match your
    MCU and port. See [arduino-cli's README] for details.
