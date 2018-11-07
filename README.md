@@ -20,7 +20,7 @@ the Library Manager and upload the sketch to your MCU.
 ### Using the Makefile
 
 An alternative to Arduino IDE is to use the included Makefile (that uses
-`arduino-cli`):
+[arduino-cli]):
 
 1. Setup `arduino-cli`:
 
@@ -49,6 +49,7 @@ An alternative to Arduino IDE is to use the included Makefile (that uses
    $ make upload
    ```
 
+[arduino-cli]: https://github.com/arduino/arduino-cli
 [arduino-cli's README]: https://github.com/arduino/arduino-cli/blob/master/README.md
 
 
