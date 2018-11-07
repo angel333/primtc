@@ -331,8 +331,6 @@ setup()
     intent = NO_MOVEMENT;
 
     switch_phase(0);
-
-    // Serial.begin(19200);
 }
 
 
