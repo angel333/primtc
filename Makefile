@@ -9,10 +9,8 @@ PRG     = $(shell basename `pwd`)
 HEX     = $(PRG).$(subst :,.,$(FQBN)).hex
 ELF     = $(PRG).$(subst :,.,$(FQBN)).elf
 ARDLIBS = DallasTemperature@3.8.0 \
-				  hd44780@1.0.1 \
-				  OneWire@2.3.4
-
-all: deps $(HEX)
+          hd44780@1.0.1 \
+          OneWire@2.3.4
 
 $(HEX): $(SRCS)
 	$(ARDCLI) compile --fqbn $(FQBN) $(CURDIR)
