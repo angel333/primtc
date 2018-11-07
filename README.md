@@ -55,7 +55,7 @@ An alternative to Arduino IDE is to use the included Makefile (that uses
 
 ## License
 
-Because of dependencies on copylefted libraries:
+Because of copylefted dependencies:
 
 - the whole project is licensed under GPLv3;
 - parts written by me are dual-licensed under GPLv3 and MIT.
